@@ -1,0 +1,22 @@
+Design and implement a Hangman game program. The game should follow the rules of the classic Hangman game:
+
+1. The program should choose a random word from a pre-defined list of words.
+2. The player's objective is to guess the word by guessing individual letters.
+3. The player has a limited number of attempts to guess the word, represented by a gallows with a hanging stick figure.
+4. The number of attempts is typically represented by the number of body parts of the stick figure (e.g., head, body, arms, legs).
+5. The player can guess one letter at a time and should be informed whether the letter is present in the word or not.
+6. If the guessed letter is present in the word, the program should reveal its correct positions in the word.
+7. If the guessed letter is not present in the word, the program should increment the hangman's body parts count.
+8. The game ends when the player guesses the entire word correctly or when the hangman's body is fully displayed.
+9. After each guess, the program should display the current state of the hangman and the correctly guessed letters so far.
+
+Requirements:
+- The program should have a user-friendly interface that prompts the player for their guess.
+- The program should validate user inputs, ensuring that only single letters are accepted as guesses.
+- The program should prevent duplicate guesses from the player.
+- The program should provide feedback to the player, indicating whether their guess was correct or not.
+- The program should display the hangman's state after each guess.
+- The program should display the correctly guessed letters and the remaining unknown letters in the word.
+- The program should handle the end conditions correctly and provide appropriate messages to the player.
+
+Implement the Hangman game using a programming language of your choice, taking into consideration the mentioned requirements.
